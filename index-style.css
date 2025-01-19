@@ -1,0 +1,17 @@
+.gradient-custom-2 {
+  background: #fccb90;
+  background: linear-gradient(to right, #00067a, #9632b7, #c50b81, #ff5e00);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
