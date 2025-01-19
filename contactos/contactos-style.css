@@ -1,0 +1,25 @@
+body {
+    font-family: 'Verdana', sans-serif;
+}
+
+.bg-dark {
+    background-color: #492773 !important;
+}
+
+.text-white {
+    color: #FFD700 !important;
+}
+
+
+.nav-pills .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.nav-pills .nav-link:hover {
+    color: #0000ff;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
