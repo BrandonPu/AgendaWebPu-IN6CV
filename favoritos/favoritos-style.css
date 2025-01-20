@@ -1,0 +1,39 @@
+body {
+    font-family: 'Verdana', sans-serif;
+}
+
+.bg-dark {
+    background-color: #396b82 !important;
+}
+
+.text-white {
+    color: #eeff00 !important;
+}
+
+
+.nav-pills .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.nav-pills .nav-link:hover {
+    color: #0000ff;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+
+@media (min-width: 768px) {
+    .gradient-form {
+      height: 100vh !important;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .gradient-custom-2 {
+      border-top-right-radius: 0.3rem;
+      border-bottom-right-radius: 0.3rem;
+    }
+}
