@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+body.persona1 {
+
+    background-color:  rgba(71, 198, 198, 0.684);
+    color: rgb(36, 173, 173);
+
+    .cerrar-sesion {
+        float: right;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .card {
+        max-width: 400px;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .card-img-top {
+        max-height: 300px;
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    @media (max-width: 576px) {
+        .card {
+            margin: 10px;
+        }
+
+        .card-body {
+            padding: 15px;
+        }
+
+        .list-group-item {
+            font-size: 0.9rem;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .card {
+            max-width: 400px;
+        }
+    }
+
+
+}
+
+body.persona2 {
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+body.persona3 {
+    background-color: lightyellow;
+    color: darkgoldenrod;
+}
+
+body.persona4 {
+    background-color: lightcoral;
+    color: darkred;
+}
+
+body.persona5 {
+    background-color: lightgray;
+    color: darkslategray;
+}
