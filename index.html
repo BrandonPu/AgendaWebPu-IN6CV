@@ -32,8 +32,20 @@
                     </div>
  
                     <form onsubmit="guardarDatos(event)">
-                      <p>Por favor ingresa tu correo electrónico</p>
- 
+
+                      <p>Por favor ingresa tu:</p>
+                      <div data-mdb-input-init class="form-outline mb-4">
+                        <label class="form-label" for="form2Example00">Nombre del Usuario</label>
+                        <input
+                          type="text"
+                          id="form2Example00"
+                          class="form-control"
+                          placeholder="Usuario"
+                          required
+                        />
+                      </div>
+                    
+                      <p>correo electrónico</p>
                       <div data-mdb-input-init class="form-outline mb-4">
                         <input
                           type="email"
@@ -107,9 +119,12 @@
     <script>
       function guardarDatos(event) {
         event.preventDefault();
+
+        const text = document.getElementById("form2Example00").value;
         const email = document.getElementById("form2Example11").value;
         const password = document.getElementById("form2Example22").value;
  
+        localStorage.setItem("text", text);
         localStorage.setItem("email", email);
         localStorage.setItem("password", password);
 
